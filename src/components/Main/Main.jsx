@@ -83,7 +83,7 @@ const Main = () => {
                                 <div className='marquee-1'>React-Marquee</div>
                             </Marquee>
                             <Marquee autoFill speed={20} direction='left'>
-                                <div className='marquee-2'>Now generate AI images using 'Image Generation icon'</div>
+                                <div className='marquee-line'>Now generate AI images using 'Image Generation icon'</div>
                             </Marquee>
                         </div>
                     </>

@@ -175,6 +175,21 @@
     -webkit-text-fill-color: transparent;
 }
 
+.marquee-line {
+    box-shadow: 20px 20px 50px rgba(26, 26, 26, 0.5);
+    border: 1px solid #184cf4;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    display: flex;
+    gap: 5rem;
+    padding: 0.15rem 0.5rem;
+    font-weight: 400;
+    font-size: 1.25rem;
+    background: -webkit-linear-gradient(16deg, #aaa9f8, #9785f8, #8355f7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .main-bottom {
     position: absolute;
     bottom: 0;
@@ -480,4 +495,20 @@
     .loader hr {
         height: 0.75rem;
     }
+}
+
+@media screen and (max-height: 750px) {
+
+    .marquee {
+        display: none;
+    }
+
+}
+
+@media screen and (max-height: 900px) {
+
+    .marquee-line {
+        display: none;
+    }
+
 }
