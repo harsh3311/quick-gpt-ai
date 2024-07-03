@@ -15,7 +15,9 @@ const App = () => {
             <Main />
           </>
         } />
-        <Route path="/image-generator" element={<><ImageGenerator /></>} />
+      </Routes>
+      <Routes>
+      <Route path="/image-generator" element={<><ImageGenerator /></>} />
       </Routes>
       <CursorAnimation />
     </Router>
