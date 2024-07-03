@@ -15,7 +15,7 @@ const App = () => {
             <Main />
           </>
         } />
-        <Route path="https://quick-gpt-ai.vercel.app/image-generator" element={<ImageGenerator />} />
+        <Route path="https://quick-gpt.live/image-generator" element={<ImageGenerator />} />
       </Routes>
       <CursorAnimation />
     </Router>
