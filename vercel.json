@@ -1,6 +1,6 @@
 {
     "rewrites": [
-      { "source": "/image-generator", "destination": "/src/components/ImageGenerator/ImageGenerator.tsx" }
+      { "source": "/(.*)", "destination": "/" }
     ]
   }
   
