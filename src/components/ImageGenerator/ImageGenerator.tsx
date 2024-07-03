@@ -26,7 +26,7 @@ const ImageGenerator = () => {
                         "model": "dall-e-2",
                         prompt: `${inputRef.current.value}`,
                         "n": 1,
-                        "size": "512x512",
+                        "size": "256x256",
                     }),
                 }
             );
